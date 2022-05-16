@@ -1,0 +1,296 @@
+@import url('https://fonts.googleapis.com/css2?family=Jockey+One&display=swap');
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: rgba(231, 231, 231, 1);
+
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+header {
+  position: absolute;
+
+  width: 100%;
+  height: 63px;
+  left: 0px;
+  top: 0px;
+
+  background: #0acd86;
+
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.logo {
+  width: 120px;
+  height: 100%;
+
+  background: #0aab6b;
+}
+
+.menu {
+  width: 100%;
+  padding-left: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap:20px;
+
+  font-family: 'Jockey One', sans-serif;
+}
+button {
+  width: 140px;
+  height: 40px;
+
+  border: none;
+  border-radius: 34px;
+  background: #0ACD86;
+
+  font-family: "Jockey One";
+  font-size: 20px;
+  text-align: center;
+  color: #0AAB6B;
+
+  cursor: pointer;
+  transition: 0.4s;
+  
+}
+
+button:hover, .selected{
+  background: #FFFFFF;
+}
+
+.user-profile {
+  width: 120px;
+  display: flex;
+  align-items: center;
+}
+
+.user-profile img {
+  width: 50px;
+  cursor: pointer;
+}
+
+.titlle {
+  width: 1520px;
+  height: 70px;
+  background: #0ACD86;
+}
+.forms {
+  width: calc(100vw - 240px);
+  height: 212px;
+  left: 117px;
+
+  background: #F2F2F2;
+  margin: 0 auto;
+  margin-top: 104px;
+}
+
+.forms {
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  gap: 100px;
+}
+
+.forms input {
+  height: 41px;
+  background: #FFFFFF;
+  border-radius: 17px;
+
+  border: 0px;
+}
+
+.forms .inputs {
+  width: 715px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+.forms .buttons {
+  width: 300px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:space-between;
+  align-items: center;
+  gap: 20px;
+}
+.description {
+  width: 714px;
+}
+
+.date, .local {
+  width: 340px;
+}
+
+.buttons button {
+  width: 282px;
+  height: 41px;
+  left: 983px;
+  top: 149px;
+
+  border-radius: 17px;
+  color: white;
+}
+
+.card {
+  width: 327px;
+  height: 183px;
+
+  background: #FFFFFF;
+  border-radius: 18px;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card h1{
+  width:100%;
+  text-align: center;
+
+  font-family: 'Jockey One';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 39px;
+  height: 10px;
+
+  color: #D2D2D2;
+}
+
+.card h3 {
+  width:100%;
+  height: 10px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26px;
+  text-align: center;
+
+  color: #D2D2D2;
+}
+
+.card span {
+font-style: normal;
+font-weight: 600;
+font-size: 26px;
+line-height: 44px;
+
+color: #0ACD86;
+
+}
+.quadrado {
+  width: 120px;
+  height: 70px;
+  background: #0AAB6B;
+}
+
+.button {
+  position: absolute;
+  width: 100px;
+  height: 35px;
+  left: 166px;
+  top: 5px;
+  background: #FFFFFF;
+  border-radius: 34px;
+}
+
+.btn1 {
+  position: absolute;
+  width: 162px;
+  height: 63px;
+  left: -27px;
+  top: 4px;
+  font-family: 'Jockey One';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 23px;
+  line-height: 32px;
+  text-align: center;
+  color: #0AAB6B;
+}
+
+.btn2 {
+  position: absolute;
+  width: 162px;
+  height: 63px;
+  left: 331px;
+  top: 4px;
+  font-family: 'Jockey One';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 23px;
+  line-height: 32px;
+  text-align: center;
+  color: #0AAB6B;
+
+}
+
+.btn3 {
+  position: absolute;
+  width: 162px;
+  height: 63px;
+  left: 535px;
+  top: 4px;
+  font-family: 'Jockey One';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 23px;
+  line-height: 32px;
+  text-align: center;
+
+  color: #0AAB6B;
+}
+
+.btn4 {
+  position: absolute;
+  width: 162px;
+  height: 63px;
+  left: 755px;
+  top: 4px;
+  font-family: 'Jockey One';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 23px;
+  line-height: 32px;
+  text-align: center;
+  color: #0AAB6B;
+}
+
+.retangulo {
+  position: absolute;
+  width: 1000px;
+  height: 400px;
+  left: 200px;
+  top: 180px;
+  background: #F2F2F2;
+}
+
+.circulo {
+  box-sizing: border-box;
+  border-radius: 27px;
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  left: 1200px;
+  top: 13px;
+  border: 5px solid #FFFFFF;
+}
+
+.icon {
+  position: absolute;
+  left: 1017px;
+  top: -155px;
+  color: white;
+} 
