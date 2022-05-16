@@ -1,0 +1,126 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: rgba(231, 231, 231, 1);
+
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.titlle {
+  width: 1520px;
+  height: 70px;
+  background: #0ACD86;
+}
+
+.quadrado {
+  width: 120px;
+  height: 70px;
+  background: #0AAB6B;
+}
+
+.button {
+  position: absolute;
+  width: 100px;
+  height: 35px;
+  left: 166px;
+  top: 5px;
+  background: #FFFFFF;
+  border-radius: 34px;
+}
+
+.btn1 {
+  position: absolute;
+  width: 162px;
+  height: 63px;
+  left: -27px;
+  top: 4px;
+  font-family: 'Jockey One';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 23px;
+  line-height: 32px;
+  text-align: center;
+  color: #0AAB6B;
+}
+
+.btn2 {
+  position: absolute;
+  width: 162px;
+  height: 63px;
+  left: 331px;
+  top: 4px;
+  font-family: 'Jockey One';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 23px;
+  line-height: 32px;
+  text-align: center;
+  color: #0AAB6B;
+
+}
+
+.btn3 {
+  position: absolute;
+  width: 162px;
+  height: 63px;
+  left: 535px;
+  top: 4px;
+  font-family: 'Jockey One';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 23px;
+  line-height: 32px;
+  text-align: center;
+
+  color: #0AAB6B;
+}
+
+.btn4 {
+  position: absolute;
+  width: 162px;
+  height: 63px;
+  left: 755px;
+  top: 4px;
+  font-family: 'Jockey One';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 23px;
+  line-height: 32px;
+  text-align: center;
+  color: #0AAB6B;
+}
+
+.retangulo {
+  position: absolute;
+  width: 1000px;
+  height: 400px;
+  left: 200px;
+  top: 180px;
+  background: #F2F2F2;
+}
+
+.circulo {
+  box-sizing: border-box;
+  border-radius: 27px;
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  left: 1200px;
+  top: 13px;
+  border: 5px solid #FFFFFF;
+}
+
+.icon {
+  position: absolute;
+  left: 1017px;
+  top: -155px;
+  color: white;
+}
