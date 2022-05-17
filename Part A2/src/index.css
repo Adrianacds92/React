@@ -14,13 +14,13 @@ code {
     monospace;
 }
 
-.titlle {
+.title {
   width: 1520px;
   height: 70px;
   background: #0ACD86;
 }
 
-.quadrado {
+.area1 {
   width: 120px;
   height: 70px;
   background: #0AAB6B;
@@ -98,7 +98,7 @@ code {
   color: #0AAB6B;
 }
 
-.retangulo {
+.area2 {
   position: absolute;
   width: 1000px;
   height: 400px;
@@ -107,7 +107,7 @@ code {
   background: #F2F2F2;
 }
 
-.circulo {
+.round {
   box-sizing: border-box;
   border-radius: 27px;
   position: absolute;
