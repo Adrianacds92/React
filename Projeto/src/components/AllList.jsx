@@ -47,7 +47,7 @@ function AllList() {
 
 
 
-            <button type="submit" onClick={() => AddTask(newTask)}>Add</button>
+            <button type="submit" onClick={() => AddTask(newTask)}>Inserir Tarefas</button>
             {
                 <section className="task-list">
                     {
